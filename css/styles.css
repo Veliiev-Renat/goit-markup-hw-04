@@ -133,8 +133,16 @@ margin-top: 40px;
 .box{
     padding: 30px 32px;
 }
-.box-1{
-    background-color:#E5E5E5;
+.case{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    background: rgba(245, 244, 250, 1);
+    margin-bottom: 30px;
+    border-radius: 4px;
+    fill: #F5F4FA;
 }
 .box-1{
     padding-inline-start: 0px;
@@ -160,15 +168,10 @@ line-height: 1.7;
 letter-spacing: 0.03em;
 color: #757575;
 }
-.box-1 svg{
-    margin-bottom: 30px;
-    fill: #F5F4FA;
-}
 .box-1 li{
     width: 270px;
 }
 .box-2{
-background-color: #E5E5E5;
 padding-bottom: 94px;
 }
 .box-2 h2{
@@ -208,6 +211,8 @@ margin-bottom: 50px;
 }
 .icon li{
     margin-right: 10px;
+}
+.icon a{
     background-color: rgba(255, 255, 255, 0.1);
     fill: rgba(175, 177, 184, 1);
     border-radius: 50% 50%;
@@ -216,8 +221,8 @@ margin-bottom: 50px;
     display: flex;
     justify-content: center;
     align-items: center;}
-    .icon li:hover,
-    .icon li:focus{
+    .icon a:hover,
+    .icon a:focus{
         background-color: #2196F3;
         fill:#fff
     }
@@ -267,19 +272,22 @@ border-radius: 0px 0px 4px 4px;
     flex-wrap: wrap;
     gap: 30px;
     box-sizing: border-box;
-}
-.clients li{
+} 
+
+.clients a{
     box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 170px;
-    padding: 16px 32px;
-    background-color: #E5E5E5;
+    height: 92px;
     fill: #afb1b8;
-    border: 1px solid rgba(175, 177, 184, 1);
+    border:1px solid rgba(175, 177, 184, 1) ;
     border-radius: 4px;
 }
 
-.clients li:hover,
-.clients li:focus{
+.clients a:hover,
+.clients a:focus{
     fill: #2196F3;
     border: 1px solid #2196F3;
 }
@@ -428,13 +436,15 @@ text-transform: uppercase;
 color: #FFFFFF;
 margin-bottom: 30px;
 }
+.massenger li{
+    margin-right: 10px;
+}
 .massenger ul{
     display: flex;
     list-style-type: none;
     padding-inline-start: 0;
 }
-.massenger li{
-    margin-right: 10px;
+.massenger a{
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50% 50%;
     width: 44px;
@@ -442,8 +452,8 @@ margin-bottom: 30px;
     display: flex;
     justify-content: center;
     align-items: center;}
-    .massenger li:hover,
-    .massenger li:focus{
+    .massenger a:hover,
+    .massenger a:focus{
         background-color: #2196F3;
     }
 
